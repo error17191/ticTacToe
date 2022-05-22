@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.board{
+    width: 300px;
+    height: 300px;
+    /*border-width: 1px;*/
+    /*border-color: black;*/
+    /*border-style: solid;*/
+    margin: auto;
+}
+
+.row{
+    height: 33.333%;
+    /*border-width: 1px;*/
+    /*border-color: black;*/
+    /*border-style: solid;*/
+}
+
+.cell{
+    position: relative;
+    display: block;
+    float: left;
+    height: 100%;
+    width: 30%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.mark{
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
